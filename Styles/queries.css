@@ -689,6 +689,26 @@
     width: 30rem;
   }
 
+  .offer {
+    padding: 2rem 1.6rem 2rem 1.6rem;
+  }
+
+  .number {
+    font-size: 3.2rem;
+  }
+
+  .offer-img {
+    width: 10rem;
+  }
+
+  .offer-subheading {
+    font-size: 2.4rem;
+  }
+
+  .offer-description {
+    font-size: 1.6rem;
+  }
+
   .region-mobile {
     background-position-y: 0;
   }
