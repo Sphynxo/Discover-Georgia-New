@@ -1,0 +1,790 @@
+@media (max-width: 87em) {
+  .main-heading {
+    font-size: 4rem;
+  }
+
+  .registration-heading {
+    font-size: 3.2rem;
+  }
+
+  .dg-image {
+    width: 56rem;
+  }
+
+
+
+  .hiking-one-left {
+    left: -10rem;
+  }
+
+  .hiking-two-right {
+    right: -10rem;
+  }
+
+  .contact {
+    gap: 10rem;
+  }
+
+  .camping-image {
+    width: 50rem;
+  }
+}
+
+@media (max-width: 79em) {
+  .dg-image {
+    width: 52rem;
+  }
+
+  .contact {
+    gap: 10rem;
+  }
+
+  .camping-image {
+    width: 50rem;
+  }
+}
+
+@media (max-width: 73em) {
+  .section-discover-georgia {
+    background-position-y: 8rem;
+    background-size: cover;
+  }
+
+  .main-heading {
+    font-size: 3.2rem;
+  }
+
+  .dg-image {
+    width: 50rem;
+  }
+
+  .hiking-one-left {
+    width: 15rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    left: -7rem;
+    bottom: 0;
+  }
+
+  .hiking-two-right {
+    width: 15rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    right: -7rem;
+    bottom: 0;
+  }
+
+  .about-us {
+    gap: 4rem;
+  }
+
+  .camping-image {
+    width: 48rem;
+  }
+}
+
+@media (max-width: 68.25em) {
+  .discover-georgia {
+    gap: 8rem;
+  }
+
+  .dg-description {
+    width: 50%;
+  }
+
+  /* .main-heading {
+          font-size: 2.4rem;
+        } */
+
+  .dg-image {
+    width: 50rem;
+  }
+
+  .hiking-man {
+    width: 100%;
+  }
+
+  .dg-heading-logo {
+    width: 5rem;
+  }
+
+  .arrow {
+    margin: 2rem 0 1.2rem 0;
+  }
+
+  .dg-primary-heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .line {
+    margin: 1.6rem 0 1.6rem 0;
+  }
+
+  .dg-cta:link,
+  .dg-cta:visited,
+  .see-more:link,
+  .see-more:visited {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 2.4rem;
+  }
+
+  .hiking-one-left {
+    width: 10rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    left: -2rem;
+    top: 24rem;
+  }
+
+  .travel-img-left {
+    width: 16rem;
+  }
+
+  .travel-img-right {
+    width: 18rem;
+  }
+
+  .contact {
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .image-side {
+    gap: 1rem;
+  }
+
+  .camping-image {
+    width: 40rem;
+  }
+}
+
+@media (max-width: 65em) {
+  .header {
+    padding: 2rem 6rem;
+    background-position-x: -10rem;
+  }
+
+  .hiking-one-left {
+    display: none;
+  }
+
+  .hiking-two-left {
+    top: 10rem;
+    left: 0;
+  }
+
+  .hiking-two-right {
+    display: none;
+  }
+
+  .hiking-one-right {
+    top: 0;
+    right: 0;
+  }
+
+  .section-discover-georgia {
+    padding: 11.6rem 6rem 0rem 6rem;
+  }
+
+  .registration-section {
+    padding: 16rem 6rem 12rem 6rem;
+  }
+
+  .offers-section {
+    padding: 10rem 6rem 10rem 6rem;
+  }
+
+  .section-map {
+    padding: 9rem 6rem 5rem 6rem;
+  }
+
+  .contact-section {
+    padding: 9rem 6rem 8rem 6rem;
+  }
+
+  .section-about {
+    padding: 10rem 6rem 8rem 6rem;
+  }
+
+  .footer {
+    padding: 5rem 6rem 0.8rem 6rem;
+  }
+
+  .backtop {
+    right: 6rem;
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+@media (max-width: 64em) {
+  .map {
+    width: 63rem;
+    height: 40rem;
+  }
+
+  .abkhazia-img {
+    width: 22rem;
+    height: 18rem;
+  }
+
+  .samegrelo-img {
+    width: 16rem;
+    top: 4.2rem;
+    left: 15rem;
+  }
+
+  .racha-img {
+    width: 15rem;
+    top: 7.8rem;
+    left: 22.6rem;
+  }
+
+  .guria-img {
+    width: 9rem;
+    top: 18.4rem;
+    left: 16.6rem;
+  }
+
+  .adjara-img {
+    width: 10rem;
+    left: 15.2rem;
+    top: 21.6rem;
+  }
+
+  .imereti-img {
+    width: 14rem;
+    top: 13.6rem;
+    left: 21rem;
+  }
+
+  .samtskhe-img {
+    width: 15rem;
+    top: 21.6rem;
+    left: 23.2rem;
+  }
+
+  .shida-kartli-img {
+    width: 11rem;
+    top: 12.8rem;
+    left: 33rem;
+  }
+
+  .kvemo-kartli-img {
+    width: 16rem;
+    top: 22.6rem;
+    left: 35rem;
+  }
+
+  .mtianeti-img {
+    width: 10rem;
+    top: 12.2rem;
+    left: 40rem;
+  }
+
+  .kakheti-img {
+    width: 16rem;
+    top: 14rem;
+    left: 47rem;
+  }
+
+  .tbilisi-img {
+    width: 4rem;
+    top: 22.2rem;
+    left: 44.2rem;
+  }
+}
+
+@media (max-width: 59em) {
+  .main-heading {
+    font-size: 2.4rem;
+  }
+
+  .registration-heading {
+    font-size: 2.4rem;
+  }
+
+  .service-name {
+    font-size: 1.4rem;
+  }
+
+  .hiking-two-left {
+    width: 8rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .text-paragraph {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 58em) {
+
+  .discover-georgia {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .registration {
+    display: block;
+  }
+
+.registration-img-side {
+    display: none;
+}
+
+.signup {
+    margin-top: 1.6rem;
+}
+
+  .dg-image {
+    width: 40rem;
+  }
+
+  .dg-heading {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .dg-description {
+    width: 100%;
+  }
+
+  .arrow {
+    margin: 0.8rem 0 0.8rem 0;
+  }
+
+  .dg-primary-heading {
+    text-align: center;
+    margin-bottom: 0.8rem;
+  }
+
+  .about-us {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 53em) {
+  .contact {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 46.5em) {
+  .header {
+    padding: 2rem 3rem 2rem 3rem;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .main-nav {
+    background-color: #351361;
+    background-image: url(../IMG/mobile-nav-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 8rem;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    /* Hide navigation */
+    /* Allows NO transitions at all */
+    /* display: none; */
+
+    /* 1) Hide it visually */
+    opacity: 1;
+
+    /* 2) Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) Hide it from screen readers */
+    visibility: visible;
+    z-index: -2;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
+
+  .offer {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .left-side-info {
+    justify-content: center;
+    
+  }
+
+  .number {
+    margin-bottom: 1rem;
+  }
+
+  .offer-description {
+    margin-top: 2rem;
+  }
+
+  .left-side-description {
+    text-align: center;
+  }
+
+  .map {
+    display: none;
+  }
+
+  .rotate {
+    display: block;
+    display: flex;
+  }
+
+  .mobile-map {
+    display: block;
+    display: flex;
+    margin-top: 2rem;
+  }
+
+  .mobile-map a {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .region-mobile {
+    margin-top: 2rem;
+  }
+
+  .region-heading {
+    font-size: 1.6rem;
+  }
+
+  .section-discover-georgia {
+    padding: 11.6rem 3rem 2rem 3rem;
+  }
+
+  .registration-section {
+    padding: 16rem 3rem 12rem 3rem;
+  }
+
+  .offers-section {
+    padding: 10rem 3rem 10rem 3rem;
+  }
+
+  .section-map {
+    padding: 9rem 3rem 5rem 3rem;
+  }
+
+  .contact-section {
+    padding: 9rem 3rem 8rem 3rem;
+  }
+
+  .section-about {
+    padding: 10rem 3rem 8rem 3rem;
+  }
+
+  .footer {
+    padding: 5rem 3rem 0.8rem 3rem;
+  }
+
+  .backtop {
+    right: 3rem;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .travel-img-left {
+    width: 10rem;
+  }
+
+  .travel-img-right {
+    width: 12rem;
+  }
+}
+
+/* @media (max-width: 44em) {
+    .region-mobile {
+      width: 26rem;
+    }
+  }
+
+@media (max-width: 42em) {
+  .region-mobile {
+    width: 26rem;
+  }
+} */
+
+@media (max-width: 40em) {
+  .header {
+    padding: 2rem 2rem;
+  }
+
+  .section-discover-georgia {
+    padding: 11.6rem 2rem 2rem 2rem;
+    background-position-y: -4rem;
+  }
+
+  .offers-section {
+    padding: 10rem 2rem 10rem 2rem;
+  }
+
+  .section-map {
+    padding: 9rem 2rem 5rem 2rem;
+  }
+
+  .registration-section {
+    padding: 16rem 2rem 12rem 2rem;
+  }
+
+  .contact-section {
+    padding: 9rem 2rem 8rem 2rem;
+  }
+
+  .section-about {
+    padding: 10rem 2rem 8rem 2rem;
+  }
+
+  .footer {
+    padding: 5rem 2rem 0.8rem 2rem;
+  }
+
+  .backtop {
+    right: 2rem;
+  }
+}
+
+@media (max-width: 38em) {
+
+  .offers-heading {
+    font-size: 3.2rem;
+  }
+
+  .offer {
+    padding: 2rem 2rem 2rem 2rem;
+  }
+
+  .number {
+    font-size: 4.4rem;
+  }
+
+  .offer-img {
+    width: 14rem;
+  }
+
+  .offer-subheading {
+    font-size: 3.2rem;
+  }
+
+  .offer-description {
+    font-size: 2rem;
+  }
+
+  .mobile-map {
+    flex-direction: column;
+  }
+
+  .region-mobile {
+    width: 100%;
+    background-position-y: -8rem;
+  }
+
+  .mtianeti-mobile {
+    background-position-y: -4rem;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+
+  .map-heading,
+  .contact-heading,
+  .about-heading {
+    font-size: 3.2rem;
+  }
+
+  .header {
+    padding: 2rem 1.6rem;
+  }
+
+  .section-discover-georgia {
+    padding: 11.6rem 1.6rem 2rem 1.6rem;
+    background-position-y: -4rem;
+  }
+
+  .offers-section {
+    padding: 10rem 1.6rem 10rem 1.6rem;
+  }
+
+  .section-map {
+    padding: 9rem 1.6rem 5rem 1.6rem;
+  }
+
+  .registration-section {
+    padding: 16rem 1.6rem 12rem 1.6rem;
+  }
+
+  .contact-section {
+    padding: 9rem 1.6rem 8rem 1.6rem;
+  }
+
+  .section-about {
+    padding: 10rem 1.6rem 8rem 1.6rem;
+  }
+
+  .footer {
+    padding: 5rem 1.6rem 0.8rem 1.6rem;
+  }
+
+  .backtop {
+    right: 1.6rem;
+  }
+}
+
+@media (max-width: 30em) {
+  .dg-image {
+    width: 30rem;
+  }
+
+  .region-mobile {
+    background-position-y: 0;
+  }
+
+  .camping-image {
+    width: 30rem;
+  }
+
+  input {
+    font-size: 1.2rem;
+  }
+
+  label {
+    font-size: 1.2rem;
+  }
+
+  textarea {
+    font-size: 1.2rem;
+  }
+
+  .send {
+    font-size: 1.2rem;
+  }
+
+  .text-paragraph {
+    font-size: 1.2rem;
+  }
+}
+
+/* @media (max-width: 28em) {
+  .region-mobile {
+    width: 30rem;
+  }
+} */
+
+@media (max-width: 24em) {
+  .dg-footer {
+    flex-direction: column;
+  }
+
+  .footer-heading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 22em) {
+  .line {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  .service {
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8rem;
+  }
+
+  .events,
+  .hiking,
+  .extreme {
+    flex-direction: column-reverse;
+  }
+
+  .reg-line {
+    margin-top: 0.8rem;
+    margin-bottom: 0rem;
+  }
+}
+
+@media (max-width: 21em) {
+  .dg-image {
+    width: 20rem;
+  }
+
+  .camping-image {
+    width: 20rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 2rem;
+  }
+
+  .travel-img-left {
+    width: 6rem;
+  }
+
+  .travel-img-right {
+    width: 7rem;
+  }
+}
+
+@media (max-width: 18em) {
+  .fa-angles-down {
+    display: none;
+  }
+}

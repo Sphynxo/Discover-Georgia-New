@@ -1,0 +1,970 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Mali";
+  background-color: #351361;
+}
+
+.header {
+  width: 100%;
+  background-color: #351361;
+  padding: 2rem 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.16);
+  background-image: url(../IMG/mountain-range.png);
+  background-repeat: no-repeat;
+  background-position-y: 0.4rem;
+  background-position-x: 11rem;
+  position: fixed;
+  z-index: 1;
+}
+
+.logo-img {
+  width: 4.8rem;
+}
+
+.main-nav-list {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #f7ff00;
+  padding: 0.8rem;
+  position: relative;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #87d19d;
+}
+
+.main-nav-link::before {
+  content: "";
+  width: 0px;
+  height: 2px;
+  background-color: #87d19d;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 1s;
+}
+
+.main-nav-link:hover:before,
+.main-nav-link:active:before {
+  width: 100%;
+}
+
+.nav-cta:link,
+.nav-cta:visited {
+  padding: 1rem 2.8rem;
+  border: 1px solid #f7ff00;
+  border-radius: 0.4rem;
+  transition: 0.3s;
+  color: #f7ff00;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.nav-cta:hover,
+.nav-cta:active {
+  background-color: #87d19d;
+  color: #351361;
+  transition: 0.3s;
+  border: 1px solid #87d19d;
+}
+
+/* MOBILE */
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4rem;
+  width: 4rem;
+  color: #f7ff00;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  height: 4rem;
+  width: 4rem;
+  display: none;
+}
+
+/* Discover Georgia */
+
+.section-discover-georgia {
+  padding: 11.6rem 10rem 0 10rem;
+  background-image: url(../IMG/dg-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 8rem;
+}
+
+.discover-georgia {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+/* DG Description */
+
+.dg-heading {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.dg-heading-logo {
+  width: 6.4rem;
+}
+
+.main-heading {
+  font-family: "Sriracha";
+  letter-spacing: 0.2rem;
+  font-size: 5.6rem;
+  font-weight: 400;
+  color: #87d19d;
+}
+
+.arrow {
+  margin: 2.4rem 0 1.6rem 0;
+}
+
+.arrow-img {
+  width: 100%;
+}
+
+.dg-primary-heading {
+  color: #f7ff00;
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 2.4rem;
+}
+
+/* Features */
+
+.line {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 2.4rem 0 2.4rem 0;
+}
+
+.service {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.service:hover .service-name {
+  color: #f7ff00;
+}
+
+.service-name {
+  font-size: 1.6rem;
+  color: #87d19d;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+}
+
+.dg-buttons {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.dg-cta:link,
+.dg-cta:visited,
+.see-more:link,
+.see-more:visited {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #f7ff00;
+  padding: 1.2rem;
+  display: block;
+  text-align: center;
+  margin-top: 4rem;
+  width: 100%;
+  border: 1px solid #f7ff00;
+  border-radius: 0.4rem;
+  transition: 0.3s;
+}
+
+.see-more:link,
+.see-more:visited {
+  border: 1px solid #87d19d;
+  color: #87d19d;
+}
+
+.dg-cta:hover,
+.dg-cta:active,
+.see-more:hover,
+.see-more:active {
+  background-color: #87d19d;
+  color: #351361;
+  border: 1px solid #87d19d;
+  transition: 0.3s;
+}
+
+.see-more:hover,
+.see-more:active {
+  background-color: #f7ff00;
+  border: 1px solid #f7ff00;
+}
+
+/* Jump Into The Adventure */
+
+.offers-section {
+  background-image: url(../IMG/adventure-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 10rem 10rem 10rem 10rem;
+}
+
+.offers {
+  margin-top: 8rem;
+}
+
+.number {
+  font-size: 6rem;
+  font-weight: 700;
+  color: #3513617a;
+  margin-bottom: 4.8rem;
+}
+
+.offers-heading {
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: #f7ff00;
+}
+
+.offer {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  /* align-items: center; */
+  background-color: #f6ff0037;
+  padding: 2rem 8rem 2rem 8rem;
+  border-radius: 2rem;
+  margin-top: 2rem;
+}
+
+.offers-subheading {
+  font-size: 4rem;
+  color: #f7ff00;
+}
+
+.offer-description {
+  font-size: 2.4rem;
+  color: #87d19d;
+  margin-top: 3.2rem;
+}
+
+.offers-image {
+  display: flex;
+  justify-content: end;
+}
+
+.offer-img {
+  width: 20rem;
+  opacity: 0.5;
+}
+
+.left-side-info {
+  flex-direction: row-reverse;
+}
+
+.left-side-description {
+  text-align: right;
+}
+
+.image-left-side {
+  justify-content: start;
+}
+
+/* DG Image */
+
+.dg-image {
+  width: 61rem;
+}
+
+.hiking-man {
+  width: 100%;
+  height: 100%;
+}
+
+/* Map */
+
+.section-map {
+  text-align: center;
+  padding: 9rem 10rem 5rem 10rem;
+  background-image: url(../IMG/map-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.map-heading,
+.contact-heading,
+.about-heading,
+.registration-heading {
+  font-size: 4.8rem;
+  color: #f7ff00;
+  font-weight: 700;
+}
+
+.rotate {
+  margin: 1.6rem auto;
+  display: flex;
+  max-width: 30rem;
+  gap: 1.6rem;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+  background-color: #f6ff0029;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+}
+
+.rotate-phone {
+  font-size: 1.6rem;
+  color: #f7ff00;
+}
+
+.rotate-img {
+  width: 2.8rem;
+  animation: rotate 2s infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(-90deg);
+  }
+  0% {
+    transform: rotate(0);
+  }
+}
+
+.map {
+  width: 88rem;
+  height: 46.4rem;
+  position: relative;
+  margin: 8.6rem auto;
+  margin-bottom: 0;
+}
+
+.hiking-one-left {
+  width: 17.6rem;
+  height: 27.2rem;
+  background-image: url(../IMG/hike1.png);
+  position: absolute;
+  left: -20rem;
+  top: 20rem;
+}
+
+.hiking-two-left {
+  width: 120px;
+  height: 272px;
+  background-image: url(../IMG/hike2.png);
+  position: absolute;
+  left: 5rem;
+  top: -5rem;
+}
+
+.hiking-one-right {
+  width: 120px;
+  height: 176px;
+  background-image: url(../IMG/tea.png);
+  position: absolute;
+  right: 10rem;
+  top: 0;
+}
+
+.hiking-two-right {
+  width: 192px;
+  height: 288px;
+  background-image: url(../IMG/hike3.png);
+  position: absolute;
+  right: -20rem;
+  top: 18.2rem;
+}
+
+.abkhazia-img,
+.samegrelo-img,
+.racha-img,
+.guria-img,
+.adjara-img,
+.imereti-img,
+.shida-kartli-img,
+.samtskhe-img,
+.mtianeti-img,
+.kvemo-kartli-img,
+.kakheti-img,
+.tbilisi-img {
+  position: absolute;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.abkhazia-img {
+  width: 29.2rem;
+  height: 21.4rem;
+  background-image: url(../IMG/abkhazia.png);
+  top: 0;
+  left: 0;
+  transition: 0.3s;
+}
+
+.abkhazia-img:hover {
+  background-image: url(../IMG/abkhazia2.png);
+  transition: 0.3s;
+}
+
+.samegrelo-img {
+  width: 22rem;
+  height: 21.2rem;
+  background-image: url(../IMG/samegrelo.png);
+  top: 6.4rem;
+  left: 20.6rem;
+  transition: 0.3s;
+}
+
+.samegrelo-img:hover {
+  background-image: url(../IMG/samegrelo2.png);
+  transition: 0.3s;
+}
+
+.racha-img {
+  width: 20.2rem;
+  height: 11.6rem;
+  background-image: url(../IMG/racha.png);
+  top: 11.6rem;
+  left: 31rem;
+  transition: 0.3s;
+}
+
+.racha-img:hover {
+  background-image: url(../IMG/racha2.png);
+  transition: 0.3s;
+}
+
+.guria-img {
+  width: 12.2rem;
+  height: 7.2rem;
+  background-image: url(../IMG/guria.png);
+  top: 25.8rem;
+  left: 22.8rem;
+  transition: 0.3s;
+}
+
+.guria-img:hover {
+  background-image: url(../IMG/guria2.png);
+  transition: 0.3s;
+}
+
+.imereti-img {
+  width: 19rem;
+  height: 13.2rem;
+  background-image: url(../IMG/imereti.png);
+  top: 19.2rem;
+  left: 28.8rem;
+  transition: 0.3s;
+}
+
+.imereti-img:hover {
+  background-image: url(../IMG/imereti2.png);
+  transition: 0.3s;
+}
+
+.adjara-img {
+  width: 14.4rem;
+  height: 9.2rem;
+  background-image: url(../IMG/adjara.png);
+  top: 30rem;
+  left: 20.6rem;
+  transition: 0.3s;
+}
+
+.adjara-img:hover {
+  background-image: url(../IMG/adjara2.png);
+  transition: 0.3s;
+}
+
+.samtskhe-img {
+  width: 20.2rem;
+  height: 15rem;
+  background-image: url(../IMG/javakh.png);
+  top: 30rem;
+  left: 32.2rem;
+  transition: 0.3s;
+}
+
+.samtskhe-img:hover {
+  background-image: url(../IMG/javakh2.png);
+  transition: 0.3s;
+}
+
+.shida-kartli-img {
+  width: 16rem;
+  height: 17.2rem;
+  background-image: url(../IMG/shida.png);
+  top: 18rem;
+  left: 44rem;
+  transition: 0.3s;
+}
+
+.shida-kartli-img:hover {
+  background-image: url(../IMG/shida2.png);
+  transition: 0.3s;
+}
+
+.kvemo-kartli-img {
+  width: 22.6rem;
+  height: 13rem;
+  background-image: url(../IMG/kvemokartli.png);
+  top: 31.2rem;
+  left: 48.2rem;
+  transition: 0.3s;
+}
+
+.kvemo-kartli-img:hover {
+  background-image: url(../IMG/kvemokartli2.png);
+  transition: 0.3s;
+}
+
+.mtianeti-img {
+  width: 15.2rem;
+  height: 19.2rem;
+  background-image: url(../IMG/mtianeti.png);
+  top: 16.2rem;
+  left: 54rem;
+  transition: 0.3s;
+}
+
+.mtianeti-img:hover {
+  background-image: url(../IMG/mtianeti2.png);
+  transition: 0.3s;
+}
+
+.kakheti-img {
+  width: 23rem;
+  height: 27.2rem;
+  background-image: url(../IMG/kakheti.png);
+  top: 19.4rem;
+  left: 64.8rem;
+  transition: 0.3s;
+}
+
+.kakheti-img:hover {
+  background-image: url(../IMG/kakheti2.png);
+  transition: 0.3s;
+}
+
+.tbilisi-img {
+  width: 6rem;
+  height: 6rem;
+  background-image: url(../IMG/tbilisi.png);
+  top: 30.6rem;
+  left: 60.6rem;
+  transition: 0.3s;
+}
+
+.tbilisi-img:hover {
+  background-image: url(../IMG/tbilisi2.png);
+  transition: 0.3s;
+}
+
+/* Regions for small screens */
+
+.mobile-map {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+}
+
+.map-for-mobile {
+  width: 16rem;
+}
+
+.region-mobile {
+  width: 48%;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.8rem;
+  background-color: #351361;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.region-heading {
+  font-size: 2.4rem;
+  color: #f7ff00;
+}
+
+.abkhazia-mobile {
+  background-image: url(../IMG/abkhazia-bg.png);
+}
+
+.samegrelo-mobile {
+  background-image: url(../IMG/svaneti-bg.png);
+}
+
+.guria-mobile {
+  background-image: url(../IMG/guria-bg.png);
+}
+
+.adjara-mobile {
+  background-image: url(../IMG/adjara-bg.png);
+}
+
+.racha-mobile {
+  background-image: url(../IMG/racha-bg.png);
+}
+
+.imereti-mobile {
+  background-image: url(../IMG/imereti-bg.png);
+}
+
+.samtskhe-mobile {
+  background-image: url(../IMG/samtskhe-bg.png);
+}
+
+.shida-kartli-mobile {
+  background-image: url(../IMG/shida-kartli-bg.png);
+}
+
+.mtianeti-mobile {
+  background-image: url(../IMG/mtianeti-bg.png);
+}
+
+.kvemo-kartli-mobile {
+  background-image: url(../IMG/kvemo-kartli-bg.png);
+}
+
+.kakheti-mobile {
+  background-image: url(../IMG/kakheti-bg.png);
+}
+
+.tbilisi-mobile {
+  background-image: url(../IMG/tbilisi-bg.png);
+}
+
+/* Registration */
+
+.registration-section {
+  padding: 16rem 10rem 12rem 10rem;
+  background-image: url(../IMG/registration-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.registration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  background-color: #87d19d22;
+  padding: 2rem;
+  border-radius: 0.8rem;
+}
+
+.registration-img-side {
+  width: 50%;
+}
+
+.reg-img {
+  width: 100%;
+}
+
+.reg-line {
+  margin-top: 3.2rem;
+  margin-bottom: 0rem;
+  gap: 1.6rem;
+}
+
+.signup {
+  font-size: 1.6rem;
+  transition: 0.3s;
+  font-weight: 600;
+  margin-top: 3.2rem;
+}
+
+.signup:hover {
+  background-color: #87d19d;
+  color: #351361;
+  cursor: pointer;
+  border: 1px solid #87d19d;
+  transition: 0.3s;
+}
+
+.sign-in {
+  font-size: 1.6rem;
+  color: #f7ff00;
+  font-weight: 600;
+  margin-top: 2.4rem;
+}
+
+.sign-in a {
+  color: #87d19d;
+  text-decoration: underline;
+}
+
+/* Contact */
+
+.contact-section {
+  padding: 9rem 10rem 8rem 10rem;
+  text-align: center;
+  background-image: url(../IMG/contact-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact-heading {
+  margin-top: 2rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30rem;
+  margin-top: 8rem;
+}
+
+.input-side {
+  text-align: start;
+  background-color: #87d19d22;
+  padding: 2rem;
+  border-radius: 0.8rem;
+}
+
+input {
+  outline: none;
+  width: 100%;
+  height: 4rem;
+  border-radius: 0.4rem;
+
+  border: 1px solid #f7ff00;
+  background-color: rgba(0, 0, 0, 0);
+  padding-left: 1.6rem;
+  font-size: 1.4rem;
+  color: #f7ff00;
+  font-family: "Mali";
+}
+
+.input-side input {
+  margin-bottom: 1.6rem;
+  margin-top: 0.8rem;
+}
+
+input:focus,
+textarea:focus {
+  font-family: "Mali";
+  color: #f7ff00;
+  background-color: #f6ff001e;
+}
+
+label {
+  color: #f7ff00;
+  font-size: 1.6rem;
+  margin-left: 1.6rem;
+}
+
+textarea {
+  width: 100%;
+  height: 12.8rem;
+  margin-top: 0.8rem;
+  resize: none;
+  border-radius: 0.4rem;
+  border: 1px solid #f7ff00;
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+  padding: 1.6rem;
+  font-size: 1.4rem;
+}
+
+.send {
+  text-align: center;
+  font-family: "Mali";
+  color: #f7ff00;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 1.6rem;
+  transition: 0.3s;
+}
+
+.send:hover {
+  background-color: #87d19d;
+  border: 0px;
+  color: #351361;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.image-side {
+  display: flex;
+}
+
+/* About Us */
+
+.section-about {
+  text-align: center;
+  padding: 10rem 10rem 8rem 10rem;
+  background-image: url(../IMG/about-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position-y: -28rem; */
+}
+
+.about-us {
+  display: flex;
+  gap: 8rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.text {
+  padding: 2rem;
+  background-color: #87d19d22;
+  border-radius: 0.8rem;
+}
+
+.about-subheading {
+  font-size: 2.4rem;
+  color: #87d19d;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+
+.text-paragraph {
+  font-size: 1.4rem;
+  color: #f7ff00;
+  font-weight: 400;
+  text-align: left;
+  text-indent: 2.4rem;
+}
+
+.part-two,
+.part-three {
+  margin-top: 0.4rem;
+}
+
+.camping-image {
+  width: 60rem;
+}
+
+/* Footer */
+
+.footer {
+  padding: 5rem 10rem 0.8rem 10rem;
+  background-image: url(../IMG/footer-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #351361;
+  box-shadow: 0px -8px 8px rgba(0, 0, 0, 0.16);
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dg-footer {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.footer-logo-img {
+  width: 4rem;
+}
+
+.footer-heading {
+  font-family: "Sriracha";
+  font-size: 4rem;
+  color: #f7ff00;
+}
+
+.footer-nav-link:link,
+.footer-nav-link:visited {
+  font-size: 1.4rem;
+}
+
+.footer-cta:link,
+.footer-cta:visited {
+  padding: 1.2rem;
+}
+
+.footer-nav-list {
+  gap: 2rem;
+}
+
+.social {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.fa-brands {
+  font-size: 4rem;
+  color: #f7ff00;
+  transition: 0.3s;
+}
+
+.fa-brands:hover {
+  color: #87d19d;
+  transition: 0.3s;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  color: #87d19d;
+  margin-top: 2.8rem;
+}
+
+.backtop {
+  display: none;
+  width: 48px;
+  height: 48px;
+  background-image: url(../IMG/BackToTop.svg);
+  background-size: cover;
+  position: fixed;
+  bottom: 1rem;
+  right: 10rem;
+}
+
+.backtop:hover {
+  background-image: url(../IMG/BackToTopHover.svg);
+  cursor: pointer;
+}
